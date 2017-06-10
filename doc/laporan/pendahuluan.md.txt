@@ -78,6 +78,237 @@ Sublime Text 3	https://www.sublimetext.com/3
 XAMPP	https://www.apachefriends.org/download.html
 
 Google Chrome	https://www.google.com/chrome/browser/desktop/index.html 
+#HASIL DAN PEMBAHASAN
+
+4.1.	Tentang Puskesmas Cibatu
+Puskesmas cibatu merupakan salah satu pusat kesehatan masyarakat di kecamatan cibatu yaitu beralamat di Jl. Keresek-cibatu No.26, Keresek, Cibatu, Kabupaten Garut 44185.
+Visi dan Misi Puskesmas Cibatu
+Visi :
+“ Meningkatkan derajat kesehatan masyarakat wilayah kerja puskesmas cibatu”
+Misi :
+a.	Meningkatkan jangkauan pelayanan kesehatan kepada masyarakat.
+b.	Mendorong kemandirian masyarakat untuk hidup bersih dan sehat.
+c.	Menurunkan angka kematian ibu dan bayi.
+d.	Menggerakan pembangunan yang berwawasan kesehatan
+
+4.2.	Analisis kebutuhan sistem
+Sistem yang dibutuhkan yaitu :
+a.	Sistem dapat melakukan entri data Pasien.
+b.	Sistem dapat melakukan pengolahan data Berobat Pasien Rawat Jalan.
+c.	Sistem dapat melakukan pengolahan data Rekam Medik Pasien Rawat Jalan.
+d.	Sistem dapat melakukan pengolahan data pencarian.
+e.	Sistem dapat melakukan analisa laporan-laporan.
+
+4.3.	Current system
+Sistem yang sedang berjalan di puskesmas cibatu yaitu dengan cara pasien datang kebagian administrasi untuk dimintai keterangan data ,bagi yang tidak mampu disertakan dengan membawa askes atau jamkesmas. Lalu,Petugas admin mengisi data pasien pada buku pengunjung, kartu pasien dan kertas rekam medis. Kemudian, Pasien datang menemui dokter dengan membawa kertas rekam medis, Dokter memeriksa pasien lalu mengisi rekam medis pasien,Pasien menyerahkan rekam medis kebagian apoteker. Selanjutnya, Apoteker memberikan obat sesuai riwayat penyakit yang diderita, Pasien memberikan rekam medis kembali ke bagian admin  untuk diarsipkan dan melakukan pembayaran. Terakhir, Pasien membawa kartu pasien yang digunakan untuk pemeriksaan selanjutnya.
+
+Sistem yang sedang berjalan saat ini memiliki kendala yaitu :
+a.	Penyajian informasi masih kurang cepat karena masih manual
+b.	Membutuhkan waktu yang lama untuk perubahan informasi
+c.	Sistem administrasi pada sisem lama kurang ekonomis karena dari segi biaya penggunaan kertas yang banyak dalam pencatatan-pencatatan dan menyebabkan pemborosan biaya
+
+4.4.	Desain (Rencana Pengembangan perangkat lunak)
+Rencana perangkat lunak yang akan dikembangkan sesuai dengan kendala pada sistem yang sedang berjalan yaitu pada sistem administrasinya, karena dengan sistem administrasi yang masih manual menyebabkan penyampaian informasi lambat juga membutuhkan waktu yang lama dalam melakukan perubahan informasi, selain itu sistem administrasi manual juga kurang ekonomis karena banyaknya penggunaan kertas untuk pencatatan-pencatatan data. Untuk itu perlu adanya sistem administrasi yang sudah terkomputerisasi. Dimana pada sistem yang diusulkan ini petugas admin dapat menginput data pasien, mengupdate data pasien dan juga bisa melakukan pencarian data. Selain itu sistem juga bisa mencetak kartu dan rekam medis pasien.
+
+
+
+
+
+
+
+4.4.1.	Use Case Global 
+Desain yang direncanakan :
+1.	Usecase Diagram Current System
+ 
+Gambar 4.1 Usecase Diagram Current System
+
+Skenario Use Case
+Nama Use Case : Pendaftaran
+Actor : Pasien, Admin
+Type : Primary
+Tujuan : Registrasi
+Pasien	Admin
+1.	Pasien memberikan informasi data 	
+	2.	Admin menerima data pasien 
+	3.	Admin mengisi data pada sistem
+	4.	Admin menulis data pasien di kartu pasien dan rekam medis
+5.	Pasien menerima kartu pasien dan rekam medis	
+
+
+Skenario Use Case
+Nama Use Case : Pemeriksaan
+Actor : Pasien, Dokter
+Type : Primary
+Tujuan : Pemeriksaan
+Pasien	Dokter
+1.	Pasien memberikan rekam medis kepada dokter	
+	2.	Dokter menerima rekam medis pasien
+	3.	Dokter memeriksa penyakit pasien
+	4.	Dokter mengisi rekam medis pasien
+	5.	Dokter memberikan rekam medis kepada pasien
+6.	Pasien menerima rekam medis dari dokter	
+
+
+Skenario Use Case
+Nama Use Case : Pengambilan obat
+Actor : Pasien, Apoteker
+Type : Primary
+Tujuan : Pengambilan obat
+Pasien	Dokter
+1.	Pasien memberikan rekam medis kepada apoteker	
+	2.	Apoteker membaca rekam medis
+	3.	Apoteker memberi obat dan mengembalikan rekam medis pasien
+4.	Pasien menerima obat dan kartu rekam medis	
+
+Skenario Use Case
+Nama Use Case : Pembayaran
+Actor : Pasien, Admin
+Type : Primary
+Tujuan : Pembayaran
+Pasien	Admin
+1.	Pasien memberikan rekam medis kepada admin	
+	2.	Admin merekap riwayat penyakit pasien pada sistem
+	3.	Admin meminta pasien melakukan pembayaran 
+4.	Pasien melakukan pembayaran	
+
+
+4.4.2.	Use Case yang diusulkan
+ 
+Gambar 4.2 Usecase yang diusulkan
+
+
+
+
+
+
+4.4.3.	Sequence Diagram yang diusulkan
+-	Sequence Diagram Login
+ 
+Gambar 4.3 Sequence diagram Login
+
+
+-	Sequence Diagram Entri Data Pasien
+ 
+Gambar 4.4 Sequence diagram Entri data pasien
+
+-	Sequence Diagram Update Rekam Medis Pasien
+ 
+Gambar 4.5 Sequence diagram Update Rekam medis pasien
+
+-	Sequence Diagram Cetak Kartu Pasien
+ 
+
+Gambar 4.6 Sequence diagram Cetak kartu pasien
+
+
+
+-	Sequence Diagram LogOut
+ 
+Gambar 4.7 Sequence diagram Logout
+
+4.4.4.	Collaboration Diagram
+-	Collaboration Diagram Login
+ 
+Gambar 4.8. Collaboration diagram Login
+
+-	Collaboration Diagram Entri Data Pasien
+ 
+Gambar : Collaboration Diagram Entri Data Pasien
+
+
+
+-	Collaboration Diagram Update Rekam Medis Pasien
+ 
+Gambar 4.9 Collaboration diagram Update Rekam medis pasien
+
+-	Collaboration Diagram Cetak Kartu Pasien
+ 
+Gambar 4.10 Collaboration diagram Cetak kartu pasien
+
+-	Collaboration Diagram LogOut
+ 
+Gambar 4.11. Collaboration diagram Logout
+
+
+
+
+
+
+
+4.4.5.	Activity Diagram
+-	Activity diagram Login
+ 
+Gambar 4.12. Activity Diagram Login
+
+-	Activity diagram Entri Data Pasien
+ 
+Gambar 4.13. Activity Diagram Entri Data Pasien
+
+
+
+-	Activity diagram Update Rekam Medis Pasien
+ 
+Gambar 4.14. Activity Diagram Update Rekam Medis Pasien
+
+-	Activity diagram Cetak Kartu Pasien
+ 
+Gambar 4.15. Activity Diagram Cetak kartu pasien
+
+
+
+-	Activity diagram Logout
+ 
+Gambar 4.16. Activity Diagram Logout
+
+4.4.6.	Component Diagram
+-	Componen Diagram Login
+ 
+Gambar 4.17. Component Diagram Login
+
+
+
+-	Componen Diagram Entri Data Pasien
+ 
+Gambar 4.18. Component Diagram Entri data pasien
+
+-	Componen Diagram Update Rekam Medis Pasien
+ 
+Gambar 4.19. Component Diagram Update rekam medis pasien
+-	Componen Diagram Cetak Kartu Pasien
+ 
+Gambar 4.20. Component Diagram Cetak kartu pasien
+
+-	Componen Diagram Logout
+ 
+Gambar 4.21. Component Diagram Logou
+4.4.7.	Deployment Diagram
+-	Deployment Diagram Login
+ 
+Gambar 4.22. Deployment Diagram Login
+
+-	Deployment Diagram Entri Data Pasien
+ 
+Gambar 4.23. Deployment Diagram Entri data pasien
+
+
+
+-	Deployment Diagram Update Rekam Medis Pasien
+ 
+Gambar 4.24. Deployment Diagram Update Rekam Medis Pasien
+
+-	Deployment Diagram Cetak Kartu Pasien
+ 
+
+Gambar 4.25. Deployment Diagram Cetak Kartu Pasien
+
+-	Deployment Diagram Logout
+ 
+Gambar 4.26. Deployment Diagram Login
+4.4.8.	Class Diagram
+
+ 
+Gambar 4.27. Class Diagram Rawat Jalan
+
 
 
 
