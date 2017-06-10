@@ -33,4 +33,14 @@ Proposal penelitian ini disusun dengan mengikuti sistematika sebagai berikut :
 3.	METODOLOGI PENELITIAN, yang meliputi rancangan penelitian yang digambarkan dengan WBS (Work Breakdown Structure) dan diagram alur aktivitas.
 4.	HASIL DAN PEMBAHASAN, yang meliputi pembahasan dalam analisis, desain dan implementasi.
 5.	KESIMPULAN DAN SARAN, yang meliputi kesimpulan dan saran dari penulisan laporan.
+#TINJAUAN PUSTAKA
+2.1.	Penelitian Yang Ada
+Pada penelitian Irawan (2014) tentang Sistem Informasi  Pendaftaran Dan Pembayaran  Pasien Rawat Jalan  Pada Upt. Puskesmas Cigeulis Pandeglang. Sistem penelitian ini membantu pelayanan pasien dalam segi pendaftaran dan pembayaran rawat jalan, dimana Pengembangan atau pendekatan sistem informasi yang digunakan dalam laporan penelitian Irawan(2014)  ini menggunakan metode pengembangan Prototype. Sedangkan alat-alat yang digunakan dalam analisa perancangan sistem adalah Flowmap, Diagram konteks, Data Flow Diagram, ERD, Tabel Relasi, sedangkan implementasi dari perancangan sistem adalah bahasa pemograman Netbeans IDE 7.1.2 dan MySQL Xampp sebagai database. Pembuatan sistem informasi pendaftaran pasien rawat jalan ini dapat membantu kinerja Puskesmas terutama dibagian TU pendaftaran dalam melakukan transaksi dengan sistem yang terkomputerisasi. Sistem Informasi Pendaftaran dan Pembayaran Pasien Rawat Jalan Pada UPT Puskesmas Cigeulis dibuat untuk kelancaran pendaftaran, kemudian merancang sistem database serta membuat program aplikasi untuk mendukung sistem pendaftaran.
+Sementara pada penelitian Ridwan (2010) yaitu tentang Sistem Informasi Layanan Kesehatan Pasien Rawat Jalan Uptd Puskesmas Cimanggung Kab. Sumedang dimana penelitian ini juga masih berbasis desktop yaitu dengan bahasa pemrograman Netbeans IDE.
+
+2.2.	Kesenjangan Penelitian
+Berdasarkan penelitian yang sedang berjalan tersebut, dapat disimpulkan kesenjangan penelitian yaitu Bahwa Sistem Informasi yang dibuat oleh penelitian sebelumnya belum berbasis web ,masih berbasis desktop.
+
+. 
+
  
