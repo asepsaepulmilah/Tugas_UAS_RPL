@@ -40,7 +40,54 @@ Sementara pada penelitian Ridwan (2010) yaitu tentang Sistem Informasi Layanan K
 
 2.2.	Kesenjangan Penelitian
 Berdasarkan penelitian yang sedang berjalan tersebut, dapat disimpulkan kesenjangan penelitian yaitu Bahwa Sistem Informasi yang dibuat oleh penelitian sebelumnya belum berbasis web ,masih berbasis desktop.
+#METODOLOGI PENELITIAN
+3.1.	Work Breakdown Structure
+Pada rancangan ini digambarkan dengan Work Breakdown Structure (WBS) dengan tahapan pada metode Waterfall. Berdasarkan teori dari metodologi tersebut dapat dirumuskan WBS sebagai berikut : 
+ 
+ 
+Gambar 3.1 Work Breakdown Structure
+Untuk mengembangkan Aplikasi Sistem Informasi Rawat jalan berbasis web ini terdapat beberapa tahapan dan aktivitas yang dilakukan sebagaimana terlihat pada gambar 3.1. Tahapan-tahapan yang digunakan di antaranya  mengikuti metode waterfall (Pressman, 2002), yang meliputi : 
+1.	Pada tahap analisis, dilakukan kegiatan-kegiatan yang bertujuan untuk mengidentifikasi masalah yang terjadi pada sistem yang sedang berjalan, sehingga didapat usulan yang dapat digunakan sebagai solusi pemecahan masalah tersebut.
+2.	Tujuan dari tahap desain adalah untuk memperoleh pengertian yang baik terhadap aliran data dan kontrol, proses-proses fungsionalitas, tingkah laku operasi serta informasi- informasi yang terkandung di dalam aplikasi yang dirancang.
+3.	Tahap pengkodean merupakan tahap yang dilakukan selanjutnya, pada tahap ini dilakukan penerapan hasil rancangan ke dalam bentuk yang dapat dibaca dan dimengerti oleh komputer melalui bahasa pemrograman.
+4.	Perangkat lunak diuji untuk menemukan kesalahan yang dibuat secara tidak sengaja saat perangkat lunak tersebut dirancang dan dibangun.
 
-. 
+3.2.	Urutan Aktivitas
+Diagram WBS pada gambar 3.1 dibuat dengan memperhatikan tujuan serta literatur yang telah diuraikan sebelumnya, dan dengan memperhatikan skema penelitian serta WBS yang telah dibuat, skema tersebut dapat digambarkan dengan diagram urut aktivitas dibawah ini :
+ 
+Gambar 3.2 Diagram Urutan Aktivitas
+Terlihat pada gambar 3.3 Diagram Urutan Aktivitas penelitian, dilakukan aktifitas-aktifitas penerapan metodologi penelitian. Aktifitas tersebut didapat dari hasil work breakdown tahapan-tahapan metodologi yang digunakan pada penelitian ini yakni metodologi waterfall, dan berikut akan dijelaskan mengenai tahapan-tahapan yang akan dilakukan pada penelitian ini.
+Pada tahap analisis, dilakukan kegiatan-kegiatan yang bertujuan untuk mengidentifikasi masalah yang terjadi pada sistem yang sedang berjalan, sehingga didapat usulan yang dapat digunakan sebagai solusi pemecahan masalah tersebut. Untuk dapat mengidentifikasi masalah, akan dilakukan kegiatan yang diantaranya adalah wawancara dengan tujuan untuk dapat memahami dan mengumpulkan data. Untuk tahapan selanjutnya, agar hasil dari identifikasi tersebut mudah dipahami maka hasil identifikasi masalah tersebut kemudian digambarkan ke dalam bentuk grafik yang diantaranya adalah flowmap diagram. Untuk membantu dalam pembuatan diagram pada tahapan analisis digunakan perangkat lunak pemodelan yang diantaranya adalah Microsoft Visio.
+Tahapan selanjutnya adalah tahap perancangan, tujuan dari tahap perancangan adalah untuk memperoleh pengertian yang baik terhadap aliran data dan kontrol, proses-proses fungsionalitas, tingkah laku operasi serta informasi- informasi yang terkandung di dalam aplikasi yang diarancang. Untuk mencapai hal tersebut, pada tahapan ini dibuat diagram-diagram yang dapat membantu dalam pemahaman sistem yang dibuat, dan diagram-diagram tersebut diantaranya adalah data flow diagram, entity relationship diagram, perancangan database, perancangan struktur menu, serta perancangan layar aplikasi. Pada tahapperancangan, perangkat lunak pemodelan yang digunakan sama dengan yang digunakan pada tahap analisis, yaitu Microsoft Visio. 
+Tahap pengkodean merupakan tahap yang dilakukan selanjutnya, pada tahap ini dilakukan penerapan hasil rancangan ke dalam bentuk yang dapat dibaca dan dimengerti oleh komputer melalui bahasa pemrograman. Pada tahap pengkodean dihasilkan sebuah aplikasi yaitu Aplikasi Sistem Informasi Rawat jalan berbasis web. Pada tahapan ini, bahasa pemrograman yang digunakan diantaranya adalah HTML, CSS, PHP, sedangkan perangkat lunak yang digunakan dalam membantu pembuatan aplikasi ini diantaranya adalah web server XAMPP serta HTML editor SublimeText 3.
+Setelah aplikasi selesai dibuat pada tahap pengkodean, tahapan selanjutnya yang dilakukan adalah tahap pengujian. Pada tahapan pengujian, dilakukan aktifitas pemastian bahwa semua perintah yang ada telah dicoba dan berfungsi, selain itu dilakukan juga pengujian fungsi untuk memastikan bahwa dengan masukan tertentu suatu fungsi akan menghasilkan keluaran sesuai dengan yang dikehendaki. Model pengujian yang akan digunakan pada tahapan ini adalah model pengujian black box testing.
+Adapun sumber daya yang dibutuhkan dalam melakukan setiap tahapan pada metodologi UA adalah sebagai berikut :
+Tabel 3.1 Sumber Daya yang dibutuhkan
+	PC / Laptop & Koneksi Internet	Microsoft Visio	Sublime Text 3	XAMPP	Browser
+Analisis	?	?			
+Perancangan	?	?			
+Pengkodean	?		?	?	?
+Pengujian	?			?	?
+
+	Tabel 3.2 Alamat Unduhan Perangkat Lunak yang dibutuhkan
+	Tautan Perangkat Lunak
+Microsoft Visio	http://filehippo.com/download_visio_professional/
+
+Sublime Text 3	https://www.sublimetext.com/3
+
+XAMPP	https://www.apachefriends.org/download.html
+
+Google Chrome	https://www.google.com/chrome/browser/desktop/index.html 
+
+
+
+
+
+
+
+
+
+
+
 
  
