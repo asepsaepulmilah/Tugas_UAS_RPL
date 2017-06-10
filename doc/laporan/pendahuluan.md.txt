@@ -308,6 +308,19 @@ Gambar 4.26. Deployment Diagram Login
 
  
 Gambar 4.27. Class Diagram Rawat Jalan
+#KESIMPULAN DAN SARAN
+5.1.	Kesimpulan
+Berdasarkan Analisis Sistem Informasi Rawat jalan di Puskesmas Cibatu, maka dapat diambil kesimpulan sebagai berikut : 
+1.	Sistem Informasi Rawat Jalan merupakan suatu hal yang sangat penting dalam suatu tempat pelayanan kesehatan , karena dapat mempercepat kinerja staff dalam melayani pasien.
+2.	Sistem Informasi Rawat jalan inidapat melakukan entri data Pasien, dapat melakukan pengolahan data Berobat Pasien Rawat Jalan, dapat melakukan pengolahan data Rekam Medik Pasien Rawat Jalan, dapat melakukan pengolahan data pencarian dan dapat melakukan analisa laporan-laporan
+
+5.2.	Saran
+Sebagai saran untuk meningkatkan keefektivitasan dalam kinerja pelayanan rawat jalan maka diajukan saran untuk menerapkan Sistem Informasi Rawat jalan dengan Memakai sebuah sistem informasi yang bersifat secara online sehingga memudahkan dalam proses penyampaian informasi seperti Desain yang telah kami buat yaitu “PERANCANGAN SISTEM INFORMASI RAWAT JALAN  UNTUK MENUNJANG PELAYANAN PUSKESMAS CIBATU”
+
+
+
+
+
 
 
 
