@@ -316,6 +316,10 @@ Berdasarkan Analisis Sistem Informasi Rawat jalan di Puskesmas Cibatu, maka dapa
 
 5.2.	Saran
 Sebagai saran untuk meningkatkan keefektivitasan dalam kinerja pelayanan rawat jalan maka diajukan saran untuk menerapkan Sistem Informasi Rawat jalan dengan Memakai sebuah sistem informasi yang bersifat secara online sehingga memudahkan dalam proses penyampaian informasi seperti Desain yang telah kami buat yaitu “PERANCANGAN SISTEM INFORMASI RAWAT JALAN  UNTUK MENUNJANG PELAYANAN PUSKESMAS CIBATU”
+#DAFTAR PUSTAKA
+Irawan, W. (2014). Sistem Informasi  Pendaftaran Dan Pembayaran  Pasien Rawat Jalan  Pada Upt. Puskesmas Cigeulis Pandeglang. Elib Unikom, http://elib.unikom.ac.id/gdl.php?mod=browse&op=read&id=jbptunikompp-gdl-wawanirawn-34340&q=wawan%20irawan.
+Pressman, R. S. (2002). Rekayasa Perangkat Lunak Pendekatan Praktisi. Yogyakarta: Andi Offset.
+Ridwan (2011). Sistem Informasi Layanan Kesehatan Pasien Rawat Jalan Uptd Puskesmas Cimanggung Kab. Sumedang.. elib unikom, http://elib.unikom.ac.id/gdl.php?mod=browse&op=read&id=jbptunikompp-gdl-ridwan-26138&q=ridwan.
 
 
 
