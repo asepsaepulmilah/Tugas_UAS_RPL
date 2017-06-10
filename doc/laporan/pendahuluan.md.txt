@@ -1,0 +1,36 @@
+#PENDAHULUAN
+1.1.	Latar Belakang
+Pada era globalisasi ini perkembangan teknologi semakin maju, khususnya teknologi informasi. Hampir seluruh bidang menggunakan teknologi informasi salahsatunya yaitu dibidang kesehatan. Namun tidak dengan Puskesmas Cibatu, puskesmas ini masih menggunakan sistem manual dalam pelayanannya sehingga ini meperlambat kinerja staff dalam melayani pasien yang berobat khususnya pasien yang rawat jalan. Berdasarkan hasil wawancara di Puskesmas Cibatu, puskesmas ini memiliki kendala dalam pencarian data pasien dan update data pasien karena data pasien ditulis dalam buku besar sehingga ketika melakukan pencarian data pasien memerlukan waktu yang lama. Untuk itu perlu adanya media yang menunjang masalah tersebut.
+Penelitian dari Irawan (2014), dan Ridwan (2010) telah merancang sistem informasi rawat jalan. Seperti penelitian dari Irawan (2014) yaitu Sistem Informasi  Pendaftaran Dan Pembayaran  Pasien Rawat Jalan  Pada Upt. Puskesmas Cigeulis Pandeglang dan Ridwan (2010) tentang Sistem Informasi Layanan Kesehatan Pasien Rawat Jalan Uptd Puskesmas Cimanggung Kab. Sumedang. Penelitian tersebut bisa membantu proses pelayanan rawat jalan juga bisa dikembangkan dan diterapkan di Puskesmas Cibatu. Sistem informasi rawat jalan adalah bagian dari sistem informasi rumah sakit, dimana pasien yang akan melakukan perawatan jalan atau kontrol kesehatan harus melakukan pendaftaran terlebih dahulu, selanjutnya melakukan kunjungan terhadap poliklinik, hingga akhirnya diputuskan oleh Dokter apakah harus melakukan perawatan jalan atau dinyatakan sembuh dari penyakit yang dideritanya. Sistem informasi rawat jalan merupakan sistem informasi yang mengelola seluruh kegiatan pasien dalam melakukan segala aktivitas perawatan jalan ( Mahpudin, 2010).
+
+1.2.	Masalah Penelitian
+Berdasarkan latar belakang diatas maka masalah dalam penelitian yang telah dibahas yaitu Hasil penelitian Irawan (2014) dan Ridwan (2010) sistem informasinya masih berbasis desktop belum berbasis web.
+1.3.	Tujuan Penelitian
+Dari paparan di atas penelitian ini bertujuan untuk memodifikasi hasil dari penelitian Irawan (2014) dan Ridwan (2010) dalam mengembangkan sistem informasi menjadi sistem informasi rawat jalan berbasis web.
+
+1.4.	Pertanyaan Penelitian
+Berdasarkan masalah penelitian diatas, ada beberapa pertanyaan yang dapat dirumuskan yaitu:
+1.	Bagaimana membangun Sistem Informasi Rawat jalan berbasis web di Puskesmas Cibatu?
+2.	Bagaimana penerapan aplikasi tersebut di Puskesmas Cibatu ?
+
+1.5.	Cakupan Penelitian
+Agar pembahasan ini dapa terfokus pada tujuan yang telah direncanakan, maka perlu adanya pembatasan terhadap penelitian untuk menghindari ketidak jelasan, sehingga penelitian ini akan dibatasi sebagai berikut:
+1.	Analisis Kebutuhan, yaitu dengan mengidentifikasi masalah yang terjadi dan menganalisis sistem yang sedang berjalan di Puskesmas Cibatu.
+2.	Desain, yaitu dengan mendesain kebutuhan yang dibutuhkan oleh Puskesmas Cibatu kedalam bentuk Usecase Diagram, Sequence Diagram, Collaboration Diagram, Class Diagram, Component Diagram, Deployment Diagram Dan Activity Diagram.
+3.	Perancangan Database yaitu dengan merancang Struktur Menu dan Layar Aplikasi sesuai desain yang telah dibuat.
+4.	Penulisan Kode Program yaitu dengan menggunakan bahasa pemrograman PHP, HTML dengan menggunakan CSS untuk memperindah halaman website dan XAMPP sebagai web server untuk mengeksekusi fungsi yang ada dalam halaman website yang dibuat sekaligus menampilkan halaman website tersebut agar bisa diakses oleh user.
+
+1.6.	Manfaat Penelitian
+Adapun dari penelitian ini dapat memberikan manfaat antara lain sebagai berikut:
+1.	Untuk mempermudah pelayanan rawat jalan pasien puskesmas cibatu
+2.	Untuk mempermudah input, update dan pencarian data pasien
+3.	Untuk mempermudah update rekam medis pasien
+
+1.7.	Sistematika Penulisan
+Proposal penelitian ini disusun dengan mengikuti sistematika sebagai berikut :
+1.	PENDAHULUAN, terdiri dari Latar Belakang, Masalah Penelitian, Tujuan Penelitian, Pertanyaan Penelitian, Cakupan Penelitian, Manfaat Penelitian, dan Sistematika.
+2.	TINJAUAN PUSTAKA, yang meliputi pencarian, pencatatan, integrasi, analisis serta mengkritisi hasil tinjauan dari berbagai sumber laporan penelitian, jurnal dan lain sebagainya tentang masalah yang berkaitan dengan penelitian yang sedang dikerjakan.
+3.	METODOLOGI PENELITIAN, yang meliputi rancangan penelitian yang digambarkan dengan WBS (Work Breakdown Structure) dan diagram alur aktivitas.
+4.	HASIL DAN PEMBAHASAN, yang meliputi pembahasan dalam analisis, desain dan implementasi.
+5.	KESIMPULAN DAN SARAN, yang meliputi kesimpulan dan saran dari penulisan laporan.
+ 
