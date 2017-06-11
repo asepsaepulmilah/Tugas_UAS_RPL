@@ -18,3 +18,99 @@ Berikut ini adalah kebutuhan fungsional utama yang dibutuhkan pengguna terhadap 
 -	Sistem dapat menapilkan laporan atau mencetak laporan
 3.	Use Case Diagram
 •	Use Case Diagram Surat Keluar
+•	Use Case Diagram Surat Masuk
+
+ 
+•	Sekenario Use Case Surat Keluar
+
+Nama Use Case	: Membuat Surat dan Laporan 
+Actor			: Bagian Umum, Sekertaris
+Type			: Primary
+Tujuan 		: Membuat Surat
+Bagian Umum	Sekertaris
+1.	Memberikan tugas membuat surat 	
+	2.	Membuat Surat / Mencetak Surat
+3.	Memberikan tugas membuat laporan surat keluar	
+	4.	Membuat laporan surat keluar
+
+Nama Use Case	: Mencatat Agenda Surat
+Actor			: Bagian Umum
+Type			: Primary
+Tujuan 		: Mencatat Agenda Surat
+Bagian Umum
+1.	Mencatat agenda surat yang akan dikirim 
+
+Nama Use Case	: Disposisi Surat dan Laporan 
+Actor			: Sekertaris, Kepala Dinas
+Type			: Primary
+Tujuan 		: Memeriksa surat dan Menerima Laporan 
+Sekertaris	Kepala Dinas
+1.	Menunjukan surat yang dibuat 	
+	2.	Memeriksa kelengkapan surat dan mendatangani surat keluar
+3.	Memberikan laporan surat keluar	
+	4.	Menerima laporan surat keluar dan mengsahkan serta mendatangani arsip 
+
+
+
+
+
+
+
+Nama Use Case	: Memberikan Surat Untuk Dikirim 
+Actor			: Bagian umum, Pengirim Surat
+Type			: Primary
+Tujuan 		: Meberikan Surat Untuk Dikirim 
+Bagian Umum	Pengirim Surat
+1.	Memberikan Perintah Untuk Mengirim Surat 	
+	2.	Menerima Surat Untuk dikirim 
+	3.	Mengirimkan Surat 
+
+Nama Use Case	: Menerima Surat
+Actor			: Penerima Surat
+Type			: Primary
+Tujuan 		: Menerima Surat 
+Penerima Surat
+1.	Menerima Surat Dari Pengirim Surat 
+
+•	Sekenario Use Case Surat Masuk
+
+Nama Use Case	: Mengirimkan Surat
+Actor			: Pengirim Surat, Bagian Umum 
+Type			: Primary
+Tujuan 		: Memasukan Data
+Pengirim Surat	Bagian Umum
+1.	Mengirimkan Surat 	
+	2.	Menerima Surat dan menyortir surat 
+	3.	Membuat buku laporan surat Masuk 
+
+Nama Use Case	: Mengirim Disposisi
+Actor			: Bagian Umum, Sekertaris 
+Type			: Primary
+Tujuan 		: Pengabungan  Data
+Bagian Umum	Sekertaris
+1.	Memberikan disposisi surat masuk 	
+	2.	Acc Surat Masuk 
+	3.	Menaudit arsip surat masuk
+
+Nama Use Case	: Mengirim Disposisi, Laporan
+Actor			: Sekertaris,Kepala Dinas
+Type			: Primary
+Tujuan 		: Mengesahkan Dan mendatangani Laporan Arsip
+Sekertaris	Kepala Dinas
+1.	Meberikan Disposisi surat yang diterima 	
+	2.	Membaca surat yang diterima 
+3.	Memberikan Laporan Surat Yang diterima 	
+	4.	Mengesahkan dan mendatangani arsip 
+
+
+
+
+
+
+
+
+•	Sumber 
+-	https://widuri.raharja.info/index.php/SI1212474197
+-	https://widuri.raharja.info/index.php/SI1011464882
+-	http://wikygeon.blogspot.co.id/2012/11/pengertian-dan-contoh-disposisi.html
+
