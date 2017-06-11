@@ -16,3 +16,5 @@ Berikut ini adalah kebutuhan fungsional utama yang dibutuhkan pengguna terhadap 
 -	Sistem dapat menerima surat masuk
 -	Sistem dapat mengirim surat pemberitahuan 
 -	Sistem dapat menapilkan laporan atau mencetak laporan
+3.	Use Case Diagram
+•	Use Case Diagram Surat Keluar
